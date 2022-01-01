@@ -1,4 +1,4 @@
-import { ClassType } from '@rewiko/util';
+import { ClassType } from '@meiblorn/util';
 import { plainToClass } from 'class-transformer';
 import { MigrationInterface, Repository, QueryRunner } from 'typeorm';
 import { Company } from './companies';

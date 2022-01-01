@@ -15,14 +15,14 @@
     "composite": true,
     "baseUrl": "./packages",
     "paths": {
-      "@rewiko/crud": ["crud/src"],
-      "@rewiko/crud-typeorm": ["crud-typeorm/src"],
-      "@rewiko/crud-request": ["crud-request/src"],
-      "@rewiko/util": ["util/src"],
-      "@rewiko/crud/*": ["crud/src/*"],
-      "@rewiko/crud-typeorm/*": ["crud-typeorm/src/*"],
-      "@rewiko/crud-request/*": ["crud-request/src/*"],
-      "@rewiko/util/*": ["util/src/*"]
+      "@meiblorn/crud": ["crud/src"],
+      "@meiblorn/crud-typeorm": ["crud-typeorm/src"],
+      "@meiblorn/crud-request": ["crud-request/src"],
+      "@meiblorn/util": ["util/src"],
+      "@meiblorn/crud/*": ["crud/src/*"],
+      "@meiblorn/crud-typeorm/*": ["crud-typeorm/src/*"],
+      "@meiblorn/crud-request/*": ["crud-request/src/*"],
+      "@meiblorn/util/*": ["util/src/*"]
     }
   },
   "references": [

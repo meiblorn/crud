@@ -28,13 +28,13 @@
 
 ### Bug Fixes
 
-- **crud** - Fix select boolean type in join option [#4](https://github.com/rewiko/crud/pull/4))
+- **crud** - Fix select boolean type in join option [#4](https://github.com/meiblorn/crud/pull/4))
 
 ## [5.0.14] - 2021-11-27
 
 ### Bug Fixes
 
-- **typeorm** - fixed cache - do not use cache when updating resources [#3](https://github.com/rewiko/crud/pull/3))
+- **typeorm** - fixed cache - do not use cache when updating resources [#3](https://github.com/meiblorn/crud/pull/3))
 
 ## [5.0.13] - 2021-11-27
 
@@ -42,7 +42,7 @@ Update readme to include release steps
 
 ## [5.0.12] - 2021-11-27
 
-Migrate repo from nestjsx to rewiko
+Migrate repo from nestjsx to meiblorn
 
 ## [4.6.2] - 2020-05-14
 

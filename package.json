@@ -1,8 +1,18 @@
 {
-  "name": "@rewiko/crud",
+  "name": "@meiblorn/crud",
   "version": "4.0.0",
   "description": "Nest CRUD for RESTful APIs",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Yali",
+      "email": "mihon4ik@gmail.com"
+    },
+    {
+      "name": "Vadim Fedorenko",
+      "email": "meiblorn@gmail.com"
+    }
+  ],
   "workspaces": [
     "packages/*"
   ],
@@ -30,7 +40,6 @@
     "format": "npx pretty-quick --pattern \"packages/**/!(*.d).ts\"",
     "lint": "npx tslint 'packages/**/*.ts'",
     "cm": "npx git-cz",
-    "postinstall": "npx opencollective",
     "pub": "npx lerna publish --force-publish --no-verify-access"
   },
   "config": {
@@ -48,13 +57,6 @@
       "commit-msg": "npx validate-commit-msg"
     }
   },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/nestjsx",
-    "donation": {
-      "text": "Become a partner:"
-    }
-  },
   "peerDependencies": {},
   "optionalDependencies": {},
   "dependencies": {
@@ -64,7 +66,6 @@
     "@nestjs/swagger": "4.7.12",
     "@nestjs/testing": "7.6.6",
     "@nestjs/typeorm": "7.1.5",
-    "@nuxtjs/opencollective": "0.2.2",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.5",
     "@types/qs": "6.5.3",
@@ -104,9 +105,5 @@
     "typescript": "3.6.3",
     "validate-commit-msg": "2.14.0"
   },
-  "devDependencies": {},
-  "author": {
-    "name": "Michael Yali",
-    "email": "mihon4ik@gmail.com"
-  }
+  "devDependencies": {}
 }

@@ -5,7 +5,7 @@ import {
   isObject,
   isString,
   isUndefined,
-} from '@rewiko/util';
+} from '@meiblorn/util';
 import { stringify } from 'qs';
 
 import {
